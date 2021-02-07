@@ -6,7 +6,7 @@ import Main from "./pages/Main";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Main} />
+      <Route exact path="/react-youtube" component={Main} />
     </Switch>
   );
 };
