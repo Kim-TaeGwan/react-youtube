@@ -11,7 +11,7 @@ const SearchComponents = memo(
     return (
       <header className={styles.header}>
         <div className={styles.logo}>
-          <Link to="/">
+          <Link to="/react-youtube">
             <img src={youtube} alt="logo" />
           </Link>
           <h1 className="logoText">YouTube</h1>
